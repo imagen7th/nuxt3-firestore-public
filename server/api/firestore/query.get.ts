@@ -1,5 +1,5 @@
 import { useQuery } from "h3";
-import { queryByCollection } from "../../lib/firestore";
+import { queryByCollection } from "../lib/firestore";
 
 export default defineEventHandler(async (event) => {
   try {
